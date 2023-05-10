@@ -5,4 +5,4 @@ This can lead to unexpected behavior when compiling on a filesystem with other c
 Use equal casing. Compare these module identifiers:
 * C:\Users\PROLINE\Documents\Builds\swiftlybox\ama\node_modules\next\dist\compiled\@next\react-refresh-utils\dist\loader.js!C:\Users\PROLINE\Documents\Builds\swiftlybox\ama\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js??ruleSet[1].rules[1].oneOf[2].use[1]!C:\Users\PROLINE\Documents\Builds\swiftlybox\ama\node_modules\next\dist\client\add-base-path.js
     Used by 2 module(s), i. e.
-![WhatsApp Image 2023-05-10 at 22 37 07](https://github.com/christopher-codespaces/nextjs-issue/assets/125880140/aad05b29-1ffc-477d-ac57-0541e63ec773)
+![WhatsApp Image 2023-05-10 at 22 25 49](https://github.com/christopher-codespaces/nextjs-issue/assets/125880140/7a896655-a1dc-44c9-b43b-c043054be531)
