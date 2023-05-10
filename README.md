@@ -1,39 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# nextjs-issue
+When I create a new project using Next.js and run it without making any changes, I receive the following warning message in my terminal:
+warn ./node_modules/next/dist/client/add-base-path.js
+There are multiple modules with names that only differ in casing.
+This can lead to unexpected behavior when compiling on a filesystem with other case-semantic.
+Use equal casing. Compare these module identifiers:
+* C:\Users\PROLINE\Documents\Builds\swiftlybox\ama\node_modules\next\dist\compiled\@next\react-refresh-utils\dist\loader.js!C:\Users\PROLINE\Documents\Builds\swiftlybox\ama\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js??ruleSet[1].rules[1].oneOf[2].use[1]!C:\Users\PROLINE\Documents\Builds\swiftlybox\ama\node_modules\next\dist\client\add-base-path.js
+    Used by 2 module(s), i. e.
+![WhatsApp Image 2023-05-10 at 22 37 07](https://github.com/christopher-codespaces/nextjs-issue/assets/125880140/aad05b29-1ffc-477d-ac57-0541e63ec773)
